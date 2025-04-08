@@ -101,13 +101,13 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="flex min-h-screen w-full flex-col items-center justify-center bg-white">
+    <div className="flex min-h-screen w-full flex-col items-center justify-center bg-transparent">
       <div className="flex w-full max-w-6xl flex-col md:flex-row">
         {/* Logo y branding en el lado izquierdo */}
         <div className="flex flex-1 flex-col items-center justify-center p-8 md:items-start md:p-16">
           <div className="mb-8 w-64">
             <Image
-              src="/placeholder.svg?height=150&width=300"
+              src="/gslogo-i.png?height=150&width=300"
               alt="Grupo Silvestre"
               width={300}
               height={150}
@@ -115,8 +115,8 @@ export default function LoginPage() {
               className="h-auto w-full"
             />
           </div>
-          <h1 className="text-2xl font-bold text-[#115740] md:text-3xl">Bienvenido al Portal Corporativo</h1>
-          <p className="mt-4 text-center text-muted-foreground md:text-left">
+          <h1 className="text-2xl font-bold text-[#fff] md:text-3xl">Bienvenido al Portal Corporativo</h1>
+          <p className="mt-4 text-center text-muted-foreground md:text-left text-[#fff]">
             Acceda a todas las herramientas y recursos de su empresa
           </p>
         </div>
